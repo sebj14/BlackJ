@@ -44,7 +44,12 @@ public class DeckTest {
         System.out.println("ShuffleCards");
         Deck instance = new Deck();
         instance.ShuffleCards();
-        // TODO review the generated test code and remove the default call to fail.
+        Card[] Array=new Card[52];
+        Array=instance.getCardsArray();
+        for(int i=0;i<52;i++)
+        {
+          
+        }
         fail("The test case is a prototype.");
     }
 
